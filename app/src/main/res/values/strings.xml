@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name" translatable="false">Codial</string>
+    <string name="maskEditTextHint" translatable="false">000000000</string>
+    <string name="codial" translatable="false">Codial</string>
+    <string name="_998900000000" translatable="false">+998900000000</string>
+    <string name="user_name" translatable="false">User name</string>
+    <string name="_100" translatable="false">100</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="telegram" translatable="false">Telegram</string>
+    <string name="instagram" translatable="false">Instagram</string>
+    <string name="youtube" translatable="false">YouTube</string>
+    <string name="_20" translatable="false">20</string>
+    <string name="divider" translatable="false">/</string>
+    <string name="savol" translatable="false">savol</string>
+    <string name="javob1" translatable="false">javob1</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="royhatdan_otish">Registration</string>
+    <string name="xush_kelibsiz">Welcome!</string>
+    <string name="telefon_raqami">Phone number</string>
+    <string name="kodni_kiriting">Enter code</string>
+    <string name="kiritilgan_raqamga_sms_tarzida_tasdiqlash_ko_di_yuborildi">A confirmation code in the form of an SMS was sent to the entered number</string>
+    <string name="kamera">Camera</string>
+    <string name="galereya">Gallery</string>
+    <string name="raqamingiz_to_g_rimi">Your number is correct?</string>
+    <string name="o_zgartirish">Edit</string>
+    <string name="ha">Yes</string>
+    <string name="raqamni_o_zgartirish">Edit number</string>
+    <string name="boshqa_raqam_kiritishni_xohlaysizmi">Do you want to enter a new number?</string>
+    <string name="agar_raqam_to_g_ri_kiritilgan_bo_lsa_iltimos_tasdiqlash_ko_di_kelishini_kuting">If the number is entered correctly, please wait for the confirmation code to arrive.</string>
+    <string name="yopish">Cancel</string>
+    <string name="reyting">Rating</string>
+    <string name="yo_riqnoma">"Instruction "</string>
+    <string name="sozlamalar">Settings</string>
+    <string name="biz_haqimizda">About</string>
+    <string name="chiqish">Exit</string>
+    <string name="foydalanuvchi_ma_lumotlari">User data</string>
+    <string name="ismingiz">Name</string>
+    <string name="familiyangiz">Surname</string>
+    <string name="ball">mark</string>
+    <string name="kursga_yozilish">Sign up for a course</string>
+    <string name="yo_q">No</string>
+    <string name="sahifangizdan_chiqishni_xohlaysizmi">Do you want to exit?</string>
+    <string name="mavjud_guruhlarga_qo_shilish">Joining existing groups</string>
+    <string name="yangi_guruhga_qo_shilish">Joining a new group</string>
+    <string name="siz_bilan_tez_orada_bog_lanamiz">we will contact you as soon as possible.</string>
+    <string name="bizning_natijalar">Our achievements</string>
+    <string name="testni_boshlash">Start testing</string>
+    <string name="groups_in_courses">There are several groups in this course. Take part in the testing and test your knowledge to find out which ones match your knowledge.</string>
+    <string name="test">Test</string>
+    <string name="keyingi">Next</string>
+    <string name="rostan_ham_chiqmoqchimisiz">Do you really want to exit?</string>
+    <string name="agar_chiqsangiz_sizning_natijangiz_saqlanib_qolmaydi">Your result will not be saved if you exit</string>
+    <string name="tasdiqlash">Confirmation</string>
+    <string name="tili">Language</string>
+    <string name="tilni_o_zgartirish">Language</string>
+    <string name="server_bilan_bogliq_hatolik_yuz_berdi">A server-related error has occurred</string>
+    <string name="saqlandi">Saved</string>
+    <string name="berilgan_maydonlarni_toldiring">Fill in the provided fields!</string>
+    <string name="xurmatli">Respected</string>
+    <string name="tilni_tanlang">Select language</string>
+    <string name="yakunlash">Finish</string>
+    <string name="tabriklaymiz">Congratulations!</string>
+    <string name="testni_muvaffaqiyatli_yakunladingiz">You have successfully passed the test.</string>
+    <string name="to_g_ri_javoblar_soni">Number of correct answers:</string>
+    <string name="ushbu_kurs_boyicha_testlar_mavjud_emas">No tests for this course!</string>
+    <string name="kurslar_mavjud_emas">Courses are not available!</string>
+</resources>

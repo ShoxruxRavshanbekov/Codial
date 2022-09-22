@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_nav"
+    app:startDestination="@id/listOfCoursesFragment">
+
+    <fragment
+        android:id="@+id/listOfCoursesFragment"
+        android:name="uz.codial6.codial.main.fragments.courses.ListOfCoursesFragment"
+        android:label="fragment_list_of_courses"
+        tools:layout="@layout/fragment_list_of_courses" >
+        <action
+            android:id="@+id/action_listOfCoursesFragment_to_ratingFragment"
+            app:destination="@id/ratingFragment" />
+        <action
+            android:id="@+id/action_listOfCoursesFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_listOfCoursesFragment_to_joiningAnExistingGroupFragment"
+            app:destination="@id/joiningAnExistingGroupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/joiningAnExistingGroupFragment"
+        android:name="uz.codial6.codial.main.fragments.courses.JoiningAnExistingGroupFragment"
+        android:label="fragment_joining_an_existing_group"
+        tools:layout="@layout/fragment_joining_an_existing_group" >
+        <action
+            android:id="@+id/action_joiningAnExistingGroupFragment_to_testingFragment"
+            app:destination="@id/testingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testingFragment"
+        android:name="uz.codial6.codial.main.fragments.testing.TestingFragment"
+        android:label="fragment_testing"
+        tools:layout="@layout/fragment_testing" />
+    <fragment
+        android:id="@+id/ratingFragment"
+        android:name="uz.codial6.codial.main.fragments.rating.RatingFragment"
+        android:label="fragment_rating"
+        tools:layout="@layout/fragment_rating" />
+    <fragment
+        android:id="@+id/editUserSettingsFragment"
+        android:name="uz.codial6.codial.main.fragments.settings.EditUserInfoFragment"
+        android:label="fragment_user_settings"
+        tools:layout="@layout/fragment_edit_user_info" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="uz.codial6.codial.main.fragments.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_editUserSettingsFragment"
+            app:destination="@id/editUserSettingsFragment" />
+    </fragment>
+</navigation>

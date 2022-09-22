@@ -1,0 +1,108 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Codial" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="SplashStyle" parent="Theme.Codial">
+        <item name="android:statusBarColor">@color/color_primary</item>
+        <item name="android:navigationBarColor">@color/color_primary</item>
+    </style>
+
+    <declare-styleable name="MaskedEditText">
+        <attr name="mask" format="string" />
+        <attr name="allowed_chars" format="string" />
+        <attr name="enable_ime_action" format="boolean" />
+        <attr name="denied_chars" format="string" />
+        <attr name="char_representation" format="string" />
+        <attr name="keep_hint" format="boolean" />
+    </declare-styleable>
+
+    <style name="BottomSheetDialogStyle">
+        <item name="android:background">@drawable/about_dialog_style</item>
+    </style>
+
+    <style name="TintColorForImageButton">
+        <item name="android:tint">@color/tint_color</item>
+        <item name="android:background">@color/color_primary</item>
+    </style>
+
+    <style name="TintColor">
+        <item name="android:tint">@color/tint_color</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="BoxesStyle">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="otp_box_background">@drawable/bg_otp_box</item>
+        <item name="otp_box_background_active">@drawable/bg_otp_box_active</item>
+        <item name="otp_box_background_inactive">@drawable/bg_otp_box_inactive</item>
+        <item name="otp_box_background_error">@drawable/bg_otp_box_error</item>
+        <item name="otp_box_background_success">@drawable/bg_otp_box_success</item>
+    </style>
+
+    <style name="MaterialButtonStyle">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomTextItems" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="ViewPagerItemStyle">
+        <item name="android:background">@drawable/view_page_item_style</item>
+    </style>
+
+    <style name="ExpandableGroupStyle">
+        <item name="android:background">@color/expandable_group_item</item>
+    </style>
+
+    <style name="ExpandableChildStyle">
+        <item name="android:background">@color/expandable_child_item</item>
+    </style>
+
+    <style name="CurrentUserColor">
+        <item name="android:background">@color/current_user_color</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:buttonTint">@color/tint_color</item>
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NavStyle">
+        <item name="android:background">@color/white</item>
+        <item name="itemTextColor">@color/primary_text_color</item>
+        <item name="itemIconTint">@color/tint_color</item>
+    </style>
+
+    <style name="NavItemFont">
+        <item name="fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize18dp" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize25dp" parent="">
+        <item name="cornerSizeTopLeft">@dimen/_25sdp</item>
+        <item name="cornerSizeTopRight">@dimen/_25sdp</item>
+        <item name="cornerSizeBottomRight">@dimen/_25sdp</item>
+        <item name="cornerSizeBottomLeft">@dimen/_25sdp</item>
+    </style>
+
+</resources>
